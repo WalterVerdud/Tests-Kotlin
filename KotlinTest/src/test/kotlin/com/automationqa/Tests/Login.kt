@@ -29,6 +29,9 @@ open class TestIngreso {
         driver?.findElement(By.xpath("//*[@id=\"__next\"]/div/div[1]/header/div/header/div[2]/div/div[1]/form/button"))?.click()
     }
 
+    @Test
+
+
 
         @AfterTest
         fun CloseBrowser() {
